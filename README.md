@@ -14,12 +14,12 @@ We can encrypt the following sentence as follows: (convert message and key to lo
 Plain text : I love C plus plus
 Cipher text: a ndsi q xnvr xnvr
 
-#Vignere Cipher#
+#Vignere Cipher#  
 In this method, a keyword is repeatedly added character by character to each alphabetic letter in the original message. The addition is carried out using the ASCII codes for each of the characters, modulo 26 (the number of letters in the alphabet), and the result is added to the code for the letter 'A' in the ASCII code sequence. For example, if the original message is "due November 4" and the keyword is "HWone", the message will be encrypted as follows:
 
-           message:   DUE NOVEMBER 4
-                      ||||||||||||||
+  message:   DUE NOVEMBER 4
+
   repeated keyword:   HWONEHWONEHWON
-                      ||||||||||||||
- encrypted message:   KQS RVRSZFLN 4
+
+  encrypted message:   KQS RVRSZFLN 4
 
